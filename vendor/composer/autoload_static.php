@@ -167,6 +167,7 @@ class ComposerStaticInit2b70f95eaee66567793d1b02f66acd0f
         ),
         'A' => 
         array (
+            'Astrotomic\\Translatable\\' => 24,
             'Asm89\\Stack\\' => 12,
             'App\\' => 4,
         ),
@@ -319,8 +320,8 @@ class ComposerStaticInit2b70f95eaee66567793d1b02f66acd0f
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -475,6 +476,10 @@ class ComposerStaticInit2b70f95eaee66567793d1b02f66acd0f
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
+        'Astrotomic\\Translatable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable',
+        ),
         'Asm89\\Stack\\' => 
         array (
             0 => __DIR__ . '/..' . '/asm89/stack-cors/src',
@@ -516,6 +521,14 @@ class ComposerStaticInit2b70f95eaee66567793d1b02f66acd0f
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
+        'Astrotomic\\Translatable\\Contracts\\Translatable' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Contracts/Translatable.php',
+        'Astrotomic\\Translatable\\Exception\\LocalesNotDefinedException' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Exception/LocalesNotDefinedException.php',
+        'Astrotomic\\Translatable\\Locales' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Locales.php',
+        'Astrotomic\\Translatable\\Traits\\Relationship' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Traits/Relationship.php',
+        'Astrotomic\\Translatable\\Traits\\Scopes' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Traits/Scopes.php',
+        'Astrotomic\\Translatable\\Translatable' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Translatable.php',
+        'Astrotomic\\Translatable\\TranslatableServiceProvider' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/TranslatableServiceProvider.php',
+        'Astrotomic\\Translatable\\Validation\\RuleFactory' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Validation/RuleFactory.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',
